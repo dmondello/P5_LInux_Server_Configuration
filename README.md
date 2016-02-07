@@ -94,8 +94,8 @@
                 Allow from all
         </Directory>
 </VirtualHost>
-```
-  * Restart apache service
+
+   * Restart apache service
    * `sudo service apache2 restart`
 
   * Create catalog.wsgi

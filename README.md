@@ -49,7 +49,7 @@
 	* `nano /etc/ssh/sshd_config`
 	* Change this line:
 	* change `port 22` to `port 2200` and save
-   * restart ssh service `service ssh reload`
+    * restart ssh service `service ssh reload`
 
 
 
@@ -100,7 +100,7 @@
 
   * Create catalog.wsgi
 	* `nano /var/www/catalog.wsgi`
-	* 
+
 	``` 
 		#!/usr/bin/python
 		import sys
@@ -133,8 +133,7 @@
 * Install GIT, clone repository movie directory and delete directory
 	  * `apt-get install git`
 	  * `cd /var/www/html`
-	  * `git clone https://github.com/dmondello/P3-Catalog.git`
-	  * Change name to prevent `mv P3-Catalog P3_Catalog`
+	  * `git clone https://github.com/dmondello/P3_Catalog.git`
      * Change in __init__.py , db_setup.py , moreteams.py PATH db engine
     * `engine = create_engine('postgresql://catalog:catalog@localhost/catalog')`
 

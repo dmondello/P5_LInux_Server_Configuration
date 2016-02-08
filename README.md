@@ -157,13 +157,13 @@
     * in `/var/www/html/P3_Catalog/` create .htaccess file `nano .htaccess`
     * insert `RedirectMatch 404 /\.git`
 * Install Glance to monitor system
-	* `sudo pip install Glances`
+	* `pip install Glances`
 * Install crontab
-   * `sudo pip install crontab`
+   * `pip install crontab`
    * `crontab -e`
    *  Add this for update on saturday at 1 am
-   * `0 1 * * 6 sudo apt-get update`
-   * `5 1 * * 6 sudo apt-get upgrade` 
+   * `0 1 * * 6 apt-get update`
+   * `5 1 * * 6 apt-get upgrade`
 * Install "fail2ban"
    * `apt-get install fail2ban`
 * Backup the config file
@@ -186,3 +186,4 @@ REFERENCES
 * https://mauriziosiagri.wordpress.com/it/postgresql/postgresql-comandi-utili/
 * https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers
 * http://flask.pocoo.org/docs/0.10/deploying/mod_wsgi/#installing-mod-wsgi
+* http://askubuntu.com/questions/173924/how-to-run-a-cron-job-using-the-sudo-command
